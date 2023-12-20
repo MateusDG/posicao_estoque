@@ -23,7 +23,8 @@ def calcular_data_chegada(previsao, data_atual):
                 dias_ate_mes_previsao += quinzena if periodo_previsao == "2ª" else 0
 
                 total_dias = dias_ate_mes_previsao + quinzena
-                return total_dias + 30
+                return total_dias + 15 #Segunda quinzena do mes
+                #return total_dias + 30 #Primeira quinzena do mes
     return None
 # Carregar as planilhas do Excel
 kouzinaTray = pd.read_excel("KouzinaElettromec20_12.xlsx")
@@ -45,6 +46,7 @@ total_analisados = 0  # Contador para o total de produtos analisados
 for index, row in kouzinaTray.iterrows():
     total_analisados += 1
     modelo_kouzina = row['Modelo']
+    codigo_produto = row['Codigo produto']  # Adicionar esta linha para capturar o código do produto
     disponibilidade_kouzina = str(row['Disponibilidade'])
 
     correspondente = posicaoEstoque[posicaoEstoque['Modelo'] == modelo_kouzina]
@@ -62,7 +64,8 @@ for index, row in kouzinaTray.iterrows():
 
                 if dias_uteis_kouzina is not None and dias_uteis_kouzina != dias_para_chegada:
                     total_precisa_alteracao += 1
-                    alertas_revisao.append(f"{modelo_kouzina} ({disponibilidade_estoque}): Alterar de {dias_uteis_kouzina} dias para {dias_para_chegada} dias")
+                    sugestao = f"{codigo_produto} - {modelo_kouzina}: Alterar de {dias_uteis_kouzina} dias para {dias_para_chegada} dias"
+                    sugestoes_alteracao.append(sugestao)
 
         elif disponibilidade_kouzina not in ["0", "Imediata", ""] and "dias úteis" in disponibilidade_kouzina:
             try:
@@ -75,13 +78,14 @@ for index, row in kouzinaTray.iterrows():
                 total_sem_alteracao += 1
 
         # Adicionar produtos com disponibilidade "0" ou "Imediato" nas listas correspondentes
+        
         if disponibilidade_kouzina == "0":
             produtos_disponibilidade_zero.append(modelo_kouzina)
         elif disponibilidade_kouzina.lower() == "imediata":
             produtos_disponibilidade_imediata.append(modelo_kouzina)
 
     else:
-        modelos_nao_identificados.append(modelo_kouzina)
+        modelos_nao_identificados.append(f"{codigo_produto} - {modelo_kouzina}")  # Modificar esta linha para incluir o código
 
 
 

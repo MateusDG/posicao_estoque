@@ -1,43 +1,56 @@
-Relatório de Disponibilidade - 20/12/2023 11:57:34
+Relatório de Disponibilidade - 20/12/2023 19:02:27
 Total de produtos analisados: 116
 Total de produtos sem necessidade de alteração: 60
-Total de produtos que precisam de alteração: 21
+Total de produtos que precisam de alteração: 34
 Total de modelos não identificados na kouzinaTray: 8
 
 Modelos não identificados na kouzinaTray:
-- BC-BI-135-XV-2ATD
-- RF-MD-472-VT-2HMA
-- CFP-ADR-90-XX-2LUA
-- FR-LL-60-XX-NGZA
-- LL-14S-60-SR-2GZB
-- FR-LL-60-VT-NLGA
-- CZPI80.F0P7#ZZZH461F
-- RF-BF-360-XX-2HMA
+- 321 - BC-BI-135-XV-2ATD
+- 2293 - RF-MD-472-VT-2HMA
+- 327 - CFP-ADR-90-XX-2LUA
+- 389 - FR-LL-60-XX-NGZA
+- 402 - LL-14S-60-SR-2GZB
+- 1938 - FR-LL-60-VT-NLGA
+- 3108 - CZPI80.F0P7#ZZZH461F
+- 3018 - RF-BF-360-XX-2HMA
 
 Sugestões de Alteração:
+- 1843 - FMC-LT-25-LC-2GZB: Alterar de 105 dias para 90 dias
+- 1963 - BC-BI-86-XV-2ATB: Alterar de 90 dias para 45 dias
+- 1977 - FB-BI-86-XV-2ATA: Alterar de 75 dias para 45 dias
+- 2415 - FM-EL-60-LC-2TNA: Alterar de 75 dias para 60 dias
+- 2416 - FG-AN-60-LC-2TNA: Alterar de 60 dias para 45 dias
+- 2434 - FGE-5Q-75-XP-2GMA: Alterar de 105 dias para 90 dias
+- 2805 - RF-DU-370-XX-2HSA: Alterar de 135 dias para 120 dias
+- 2806 - FZ-DU-274-XX-2HSA: Alterar de 135 dias para 120 dias
+- 2961 - BC-BI-424-XV-2ATB: Alterar de 60 dias para 45 dias
+- 2964 - CKG-5Q-70-SL-3TNC: Alterar de 60 dias para 45 dias
+- 2965 - DA-BI-60-SL-2TNA: Alterar de 135 dias para 120 dias
+- 2966 - FGG-8Q-48-XP-1SGA: Alterar de 30 dias para 90 dias
+- 2967 - RT-6Q-36-XP-1SGA: Alterar de 135 dias para 120 dias
+- 2971 - CKG-5Q-75-LC-3ZEA: Alterar de 45 dias para 90 dias
+- 3017 - CFB-BBQ-34-XP-2ELA: Alterar de 120 dias para 105 dias
+- 3081 - GA-6S-14-XX-2TNA: Alterar de 30 dias para 120 dias
+- 316 - CV-2BI-45-XV-2ATC: Alterar de 60 dias para 45 dias
+- 322 - BC-BI-135-XV-1ATF: Alterar de 135 dias para 120 dias
+- 323 - BC-BI-135-XV-2ATE: Alterar de 60 dias para 45 dias
+- 3250 - LL-14S-60-SR-2VSA: Alterar de 75 dias para 60 dias
+- 337 - CFI-NAU-35-XX-2ATB: Alterar de 60 dias para 45 dias
+- 347 - CFD-SOL-90-XV-2ATB: Alterar de 60 dias para 45 dias
+- 358 - CKG-5Q-90-XQ-3ZEA: Alterar de 120 dias para 105 dias
+- 360 - CKG-5Q-90-SL-3TNB: Alterar de 30 dias para 45 dias
+- 362 - CKG-4Q-60-VT-3TNA: Alterar de 60 dias para 45 dias
+- 364 - CKG-5Q-90-VT-3TNA: Alterar de 60 dias para 45 dias
+- 369 - DG-2Q-30-XQ-3ZEA: Alterar de 30 dias para 105 dias
+- 370 - DE-BQ-30-XQ-2ZEA: Alterar de 120 dias para 105 dias
+- 378 - FGG-5Q-90-XP-2GMA: Alterar de 105 dias para 90 dias
+- 380 - FM-EL-75-LC-2TNA: Alterar de 75 dias para 60 dias
+- 386 - FM-DG-60-SL-2TNA: Alterar de 135 dias para 120 dias
+- 395 - GA-12S-30-XX-2ATA: Alterar de 75 dias para 60 dias
+- 397 - IM-BI-18-XX-1SXC: Alterar de 150 dias para 120 dias
+- 406 - FMC-FR-40-SL-2TNC: Alterar de 135 dias para 120 dias
 
 Alertas de Revisão:
-- BC-BI-135-XV-1ATE (INDISPONIVEL): Alterar de 105 dias para 120 dias
-- BC-BI-86-XV-2ATB (INDISPONIVEL): Alterar de 90 dias para 60 dias
-- CFI-ADR-90-XX-2ATA (INDISPONIVEL): Alterar de 105 dias para 120 dias
-- CFI-MOB-90-VP-2ATB (INDISPONIVEL): Alterar de 105 dias para 120 dias
-- CFP-BBQ-30-XP-2ELA (INDISPONIVEL): Alterar de 90 dias para 105 dias
-- CFP-MLN-120-XX-2ATA (INDISPONIVEL): Alterar de 120 dias para 135 dias
-- CKG-4Q-60-LC-3ZEA (INDISPONIVEL): Alterar de 105 dias para 120 dias
-- CKG-5Q-75-LC-3ZEA (SOB CONSULTA): Alterar de 45 dias para 105 dias
-- CKG-5Q-90-SL-3TNB (SOB CONSULTA): Alterar de 30 dias para 60 dias
-- DG-2Q-30-XQ-3ZEA (SOB CONSULTA): Alterar de 30 dias para 120 dias
-- FB-BI-86-XV-2ATA (INDISPONIVEL): Alterar de 75 dias para 60 dias
-- FGG-8Q-48-XP-1SGA (INDISPONIVEL): Alterar de 30 dias para 105 dias
-- GA-6S-14-XX-2TNA (INDISPONIVEL): Alterar de 30 dias para 135 dias
-- GR-BI-118-XX-2WKA (SOB CONSULTA): Alterar de 135 dias para 150 dias
-- IM-BI-18-XX-1SXC (INDISPONIVEL): Alterar de 150 dias para 135 dias
-- LL-10S-45-SR-2VSA (INDISPONIVEL): Alterar de 60 dias para 75 dias
-- LL-14S-60-SR-2VSA (INDISPONIVEL): Alterar de 60 dias para 75 dias
-- RF-BF-360-VT-2HMC (INDISPONIVEL): Alterar de 60 dias para 75 dias
-- RF-BF-510-XX-2VSA (INDISPONIVEL): Alterar de 60 dias para 75 dias
-- RF-FD-653-XX-2VSA (INDISPONIVEL): Alterar de 60 dias para 75 dias
-- RF-MD-630-XX-2VSA (INDISPONIVEL): Alterar de 60 dias para 75 dias
 
 Produtos sem necessidade de alteração:
 - CV-2BI-31-XV-2ATA
