@@ -1,0 +1,131 @@
+Relatório de Disponibilidade - 08/12/2023 18:45:48
+Total de produtos analisados: 114
+Total de produtos sem necessidade de alteração: 62
+Total de produtos que precisam de alteração: 38
+Total de modelos não identificados na kouzinaTray: 9
+
+Modelos não identificados na kouzinaTray:
+- BC-BI-135-XV-2ATD
+- CFP-ADR-90-XX-2LUA
+- FR-LL-60-XX-NGZA
+- LL-14S-60-SR-2GZB
+- nan
+- GA-6S-13-VT-2ATA
+- FR-LL-60-VT-NLGA
+- CZPI80.E0P7#ZZZH461F
+- LL-10S-45-SR-2VSA/FR-LL-45-XX-
+
+Sugestões de Alteração:
+
+Alertas de Revisão:
+- BC-BI-135-XV-1ATC (INDISPONIVEL): Alterar de 120 dias para 105 dias
+- BC-BI-135-XV-1ATD (INDISPONIVEL): Alterar de 30 dias para 135 dias
+- BC-BI-135-XV-2ATC (INDISPONIVEL): Alterar de 75 dias para 60 dias
+- BC-BI-424-XV-2ATA (INDISPONIVEL): Alterar de 105 dias para 60 dias
+- BC-BI-86-XV-2ATB (INDISPONIVEL): Alterar de 90 dias para 75 dias
+- CFB-BBQ-34-XP-2ELA (INDISPONIVEL): Alterar de 45 dias para 120 dias
+- CFD-SOL-90-XV-2ATB (INDISPONIVEL): Alterar de 75 dias para 60 dias
+- CFI-ADR-90-XX-2ATA (SOB CONSULTA): Alterar de 30 dias para 105 dias
+- CFI-MOB-90-VP-2ATB (INDISPONIVEL): Alterar de 30 dias para 105 dias
+- CFI-NAU-35-XX-2ATB (INDISPONIVEL): Alterar de 30 dias para 60 dias
+- CFP-BBQ-30-XP-2ELA (INDISPONIVEL): Alterar de 105 dias para 90 dias
+- CFP-MLN-120-XX-2ATA (INDISPONIVEL): Alterar de 135 dias para 120 dias
+- CKG-4Q-60-LC-3ZEA (INDISPONIVEL): Alterar de 135 dias para 120 dias
+- CKG-4Q-60-VT-3TNA (SOB CONSULTA): Alterar de 30 dias para 60 dias
+- CKG-5Q-70-SL-3TNC (SOB CONSULTA): Alterar de 75 dias para 60 dias
+- CKG-5Q-90-VT-3TNA (INDISPONIVEL): Alterar de 135 dias para 60 dias
+- CKG-5Q-90-XQ-3ZEA (INDISPONIVEL): Alterar de 45 dias para 120 dias
+- CV-2BI-45-XV-2ATB (SOB CONSULTA): Alterar de 30 dias para 60 dias
+- DA-BI-60-SL-2TNA (INDISPONIVEL): Alterar de 150 dias para 135 dias
+- DE-BQ-30-XQ-2ZEA (INDISPONIVEL): Alterar de 30 dias para 120 dias
+- FB-BI-86-XV-2ATA (INDISPONIVEL): Alterar de 90 dias para 75 dias
+- FG-AN-60-LC-2TNA (INDISPONIVEL): Alterar de 75 dias para 60 dias
+- FGE-5Q-75-XP-2GMA (INDISPONIVEL): Alterar de 75 dias para 105 dias
+- FGG-5Q-90-XP-2GMA (SOB CONSULTA): Alterar de 30 dias para 105 dias
+- FGG-8Q-48-XP-1SGA (SOB CONSULTA): Alterar de 30 dias para 105 dias
+- FM-DG-60-SL-2TNA (INDISPONIVEL): Alterar de 150 dias para 135 dias
+- FM-EL-60-LC-2TNA (INDISPONIVEL): Alterar de 90 dias para 75 dias
+- FM-EL-75-LC-2TNA (INDISPONIVEL): Alterar de 90 dias para 75 dias
+- FMC-FR-40-SL-2TNC (INDISPONIVEL): Alterar de 150 dias para 135 dias
+- FMC-LT-25-LC-2GZB (INDISPONIVEL): Alterar de 90 dias para 105 dias
+- FZ-DU-274-XX-2HSA (INDISPONIVEL): Alterar de 60 dias para 135 dias
+- GA-12S-30-XX-2ATA (SOB CONSULTA): Alterar de 30 dias para 75 dias
+- GR-BI-118-XX-2WKA (SOB CONSULTA): Alterar de 30 dias para 150 dias
+- RF-BF-510-XX-2VSA (INDISPONIVEL): Alterar de 90 dias para 75 dias
+- RF-DU-370-XX-2HSA (INDISPONIVEL): Alterar de 60 dias para 135 dias
+- RF-FD-653-XX-2VSA (INDISPONIVEL): Alterar de 90 dias para 75 dias
+- RF-MD-472-VT-2HMA (INDISPONIVEL): Alterar de 30 dias para None dias
+- RT-6Q-36-XP-1SGA (INDISPONIVEL): Alterar de 120 dias para 135 dias
+
+Produtos sem necessidade de alteração:
+- CV-2BI-31-XV-2ATA
+- CV-2BI-87-VT-2VPA
+- BBQ-3Q-65-XP-NSCA
+- CKG-6Q-90-XQ-3ZEB
+- CKG-4Q-60-XQ-3ZEA
+- DG-2Q-30-XQ-3ZEA
+- DG-1Q-30-XQ-3ZEA
+- CKI-4Q-60-CI-2XBB
+- CKG-5Q-70-VT-3TNB
+- CKI-5Q-90-CI-2XBA
+- CKV-4Q-60-CV-2XBA
+- CKV-5Q-90-CV-2ZEB
+- DI-2Q-30-CI-2XBB
+- DG-1Q-38-VT-3ZEA
+- DV-2Q-30-XQ-2ZEA
+- CKG-5Q-90-SL-3TNB
+- CKG-4Q-60-SL-3TNB
+- FG-AN-90-LC-2LCA
+- FM-EL-90-LC-2LCA
+- CV-2BI-181-VT-2VPB
+- BBQ-5Q-95-XP-NSCA
+- CV-2BI-45-XV-1ATB
+- CFI-MLN-90-XX-2ATA
+- BBQ-4Q-75-XP-NSCB
+- CFI-RVN-90-XV-2ATB
+- CFP-RVN-90-XV-2ATB
+- LL-11S-45-SR-2GZB
+- CFP-MLN-60-XX-2ATA
+- FM-EL-60-VT-2TNA
+- FM-EL-75-VT-2TNA
+- FMC-LT-25-VT-2GZA
+- CFI-SOS-110-XX-2ATC
+- CFI-MLN-120-XX-2ATA
+- CFP-MLN-80-XX-2ATA
+- CFP-MLN-90-XX-2ATA
+- CFI-PAN-50-VP-2ATB
+- CFI-PRO-35-XX-2ATB
+- CFP-SRT-90-VP-2ATB
+- CFI-VTR-90-VP-2ATB
+- CFP-VTR-90-VP-2ATB
+- CKG-5Q-75-XQ-3ZEA
+- FGE-5Q-90-XP-2GMA
+- FM-DG-60-VT-2TNA
+- FB-BI-135-XV-1ATB
+- FMC-FR-40-VT-2TNB
+- CFP-BBQ-60-XP-2ELA
+- CFB-BBQ-58-XP-2ELA
+- CFP-BBQ-36-XP-2ELA
+- CFP-MLN-80-XX-1ATA
+- CFI-RVN-90-XV-1ATB
+- CFP-RVN-90-XV-1ATB
+- CKG-4Q-110-VT-3ZEA
+- CFI-MLN-90-XX-1ATA
+- FB-BI-135-XV-2ATB
+- BC-BI-144-VT-2VPA
+- CKG-5Q-90-LC-3ZEA
+- CKG-5Q-75-LC-3ZEA
+- CFP-BBQ-48-XP-2ELA
+- GA-6S-13-XX-2ATA
+- CFP-ADR-90-XX-2ATA
+- CFP-MLN-90-XX-1ATA
+- CV-2BI-122-XV-2ATB
+
+Produtos com disponibilidade '0':
+- CV-2BI-160-XV-2ATA
+- FGG-8Q-48-XP-1SGA
+
+Produtos com disponibilidade 'Imediata':
+- CV-2FS-77-XV-2ATA
+
+Total de produtos analisados: 114
