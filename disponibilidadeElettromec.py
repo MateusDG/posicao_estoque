@@ -26,7 +26,7 @@ def calcular_data_chegada(previsao, data_atual):
                 return total_dias + 30
     return None
 # Carregar as planilhas do Excel
-kouzinaTray = pd.read_excel("kouzinaTrayElettromec.xlsx")
+kouzinaTray = pd.read_excel("KouzinaElettromec20_12.xlsx")
 posicaoEstoque = pd.read_excel("posicaoEstoque.xlsx")
 
 data_atual = datetime.now()
